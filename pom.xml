@@ -65,7 +65,7 @@
          </dependency>
              
              
-<!--
+      <!--
          <dependency>
              <groupId>org.apache.logging.log4j</groupId>
              <artifactId>log4j-core</artifactId>
@@ -151,7 +151,12 @@
         </dependency>
 
 
-    </dependencies>
+      <dependency>
+         <groupId>commons-io</groupId>
+         <artifactId>commons-io</artifactId>
+         <version>20030203.000550</version>
+      </dependency>
+   </dependencies>
 
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
